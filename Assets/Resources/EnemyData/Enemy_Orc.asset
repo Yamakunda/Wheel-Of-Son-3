@@ -1,0 +1,34 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 20f0f5e8e67b4c0468e965c2b6e9ff7f, type: 3}
+  m_Name: Enemy_Orc
+  m_EditorClassIdentifier: 
+  enemyName: Orc
+  race: Orc
+  trait: Brave
+  enemyType: Orc
+  RewardExp: 10
+  maxHp: 50
+  currentHp: 50
+  maxMana: 0
+  currentMana: 0
+  strength: 10
+  magic: 0
+  defense: 0
+  speed: 5
+  skills:
+  - name: Tackle
+    multiplier: 1
+    statBase: strength
+    manaCost: 0
+    targetType: single
+    splashMultiplier: 0

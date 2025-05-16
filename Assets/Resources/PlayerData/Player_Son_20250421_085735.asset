@@ -1,0 +1,40 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: d6dc454aada0d7e4d87b0308547592f7, type: 3}
+  m_Name: Player_Son_20250421_085735
+  m_EditorClassIdentifier: 
+  playerName: Son
+  race: Elf
+  trait: Brave
+  level: 1
+  experience: 0
+  maxHp: 140
+  currentHp: 140
+  maxMana: 200
+  currentMana: 200
+  strength: 50
+  magic: 50
+  defense: 2
+  speed: 20
+  skills:
+  - name: Nature's Wrath
+    multiplier: 1.6
+    statBase: magic
+    manaCost: 12
+    targetType: single
+    splashMultiplier: 0
+  - name: Heroic Charge
+    multiplier: 1.7
+    statBase: strength
+    manaCost: 14
+    targetType: single
+    splashMultiplier: 0

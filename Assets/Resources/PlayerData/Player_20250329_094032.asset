@@ -1,0 +1,28 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: d6dc454aada0d7e4d87b0308547592f7, type: 3}
+  m_Name: Player_20250329_094032
+  m_EditorClassIdentifier: 
+  playerName: Son
+  race: Human
+  trait: Cunning
+  level: 1
+  experience: 0
+  maxHp: 120
+  currentHp: 120
+  maxMana: 160
+  currentMana: 160
+  strength: 50
+  magic: 30
+  defense: 2
+  speed: 20
+  skills: []

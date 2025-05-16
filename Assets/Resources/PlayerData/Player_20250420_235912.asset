@@ -1,0 +1,46 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: d6dc454aada0d7e4d87b0308547592f7, type: 3}
+  m_Name: Player_20250420_235912
+  m_EditorClassIdentifier: 
+  playerName: Son
+  race: Elf
+  trait: Cunning
+  level: 1
+  experience: 0
+  maxHp: 200
+  currentHp: 200
+  maxMana: 180
+  currentMana: 180
+  strength: 40
+  magic: 40
+  defense: 3
+  speed: 30
+  skills:
+  - name: Power Strike
+    multiplier: 1.5
+    statBase: strength
+    manaCost: 5
+    targetType: single
+    splashMultiplier: 0
+  - name: Nature's Wrath
+    multiplier: 1.6
+    statBase: magic
+    manaCost: 12
+    targetType: single
+    splashMultiplier: 0
+  - name: Strategic Strike
+    multiplier: 1.5
+    statBase: strength
+    manaCost: 10
+    targetType: splash
+    splashMultiplier: 0.5
