@@ -1,0 +1,46 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: d6dc454aada0d7e4d87b0308547592f7, type: 3}
+  m_Name: Player_20250401_223740
+  m_EditorClassIdentifier: 
+  playerName: Son
+  race: Human
+  trait: Strong
+  level: 1
+  experience: 0
+  maxHp: 100
+  currentHp: 100
+  maxMana: 100
+  currentMana: 100
+  strength: 0
+  magic: 0
+  defense: 0
+  speed: 30
+  skills:
+  - name: Power Strike
+    multiplier: 1.5
+    statBase: strength
+    manaCost: 5
+    targetType: single
+    splashMultiplier: 0
+  - name: Versatile Strike
+    multiplier: 1.2
+    statBase: strength
+    manaCost: 8
+    targetType: single
+    splashMultiplier: 0
+  - name: Mighty Slam
+    multiplier: 2
+    statBase: strength
+    manaCost: 20
+    targetType: single
+    splashMultiplier: 0

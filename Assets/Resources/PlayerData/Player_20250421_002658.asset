@@ -1,0 +1,46 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: d6dc454aada0d7e4d87b0308547592f7, type: 3}
+  m_Name: Player_20250421_002658
+  m_EditorClassIdentifier: 
+  playerName: Son
+  race: Orc
+  trait: Wise
+  level: 1
+  experience: 0
+  maxHp: 180
+  currentHp: 180
+  maxMana: 160
+  currentMana: 160
+  strength: 50
+  magic: 30
+  defense: 3
+  speed: 30
+  skills:
+  - name: Power Strike
+    multiplier: 1.5
+    statBase: strength
+    manaCost: 5
+    targetType: single
+    splashMultiplier: 0
+  - name: Crushing Blow
+    multiplier: 1.8
+    statBase: strength
+    manaCost: 15
+    targetType: single
+    splashMultiplier: 0
+  - name: Arcane Wisdom
+    multiplier: 1.8
+    statBase: magic
+    manaCost: 18
+    targetType: single
+    splashMultiplier: 0

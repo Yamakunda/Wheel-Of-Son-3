@@ -1,0 +1,23 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 0f36432df0fd3724b8d1b9b7cef785f8, type: 3}
+  m_Name: GameData
+  m_EditorClassIdentifier: 
+  coinCount: 0
+  eventProgress: 0
+  eventProgressMax: 5
+  playerDataList:
+  - {fileID: 11400000, guid: a2258e6e7edfb374ab83667a7ab18e7d, type: 2}
+  enemyDataList:
+  - {fileID: 11400000, guid: bfdea95eaccfb834eb7d5051fd0ed0a4, type: 2}
+  - {fileID: 11400000, guid: 9dd28391de0bc8245bd580f62d9f532a, type: 2}
+  - {fileID: 11400000, guid: c174d3ae930184c40907d354c6514d12, type: 2}
